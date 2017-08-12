@@ -1,0 +1,351 @@
+<div style="background-color: #eeeeee">
+   <style>
+   body {
+    padding-top: 0px;
+    padding-bottom: 30px;
+    background: #eeeeee;
+    
+}
+}
+
+#contain label {
+    padding-top: 10px;
+    margin-top: 35px; 
+}
+.jumbotron  {
+    font-family: 'Zilla Slab', serif;
+    padding: 30px;
+    background: #d6d4d5;
+}
+.jumbotron span {
+    padding-top: 15px;
+}
+
+h1, h2, h3 {
+    font-family: 'Zilla Slab', serif;
+    background-color: #232121;
+    padding: 10px;
+}
+
+h1 {
+    font-family: 'Zilla Slab', serif;
+    background: #f8f8f8;
+    padding : 10px
+}
+
+fieldset {
+    margin-top: 60px;
+}
+
+.form-group {
+    padding:2px 1px 20px 20px;
+    margin-top: 10px;
+}
+
+.form-group textarea {
+    background: #eeeeee;
+    border-color: grey;
+
+}
+
+.form-horizontal .control-label {
+    padding-top: 17px;
+
+}
+
+
+}
+
+label {
+    color: black;
+    
+}
+
+legend {
+    color: black;
+}
+
+.panel input {
+
+    margin: 10px;
+
+}
+
+.panel {
+    background: white;
+    clear: both;
+    margin: 30px;
+}
+
+#myCarousel {
+    margin-top: 15px;
+
+    margin-bottom: 40px;
+}
+
+#hobbies {
+    padding-right: 5px;
+}
+
+input {
+    border-radius: 8px;
+    background: #eeeeee;
+    border-color: grey;
+
+}
+ .btn {
+    margin-bottom: 45px;
+
+
+}
+
+.checkbox input[type=checkbox] {
+    position: relative;
+
+}
+       
+
+   </style>
+    <div id="contain" class="container">
+        <div class="jumbotron text-center">
+            <h1><span class="glyphicon glyphicon-pencil"> </span> More Details</h1>
+        </div>
+        <div id="myCarousel" class="carousel slide col-sm-offset-3 col-sm-6 " data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="img/thumbnail.1.jpg" alt="Los Angeles">
+                </div>
+                <div class="item">
+                    <img src="img/thumbnail.1.jpg" alt="Chicago">
+                </div>
+                <div class="item">
+                    <img src="img/thumbnail.1.jpg" alt="New York">
+                </div>
+            </div>
+            <!-- Left and right controls -->
+            <a class="left carousel-control" data-slide="prev" href="#myCarousel" >
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" data-slide="next" href="#myCarousel" >
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <div class="panel panel-primary" style="clear: both;">
+            <div class="panel-heading" style="background: #222222">
+                <h2 class="panel-title" style="background-color: #232121">Objective</h2>
+            </div>
+            <div class="panel-body">
+                <div class="form-group">
+                    <textarea id="objective" class="form-control" rows="5" placeholder="Briefly describe your Objective in not more than 50 words"></textarea>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-primary">
+            <div class="panel-heading" style="background: #222222">
+                <h2 class="panel-title" style="background-color: #232121">Interest</h2>
+            </div>
+            <div class="panel-body">
+                <div class="form-group">
+                    <textarea id="interest" class="form-control" rows="5" placeholder="Briefly describe your Objective in not more than 50 words"></textarea>
+                </div>
+            </div>
+        </div>
+        
+        <div class="panel panel-primary">
+            <div class="panel-heading" style="background: #222222">
+                <h2 class="panel-title" style="background-color: #232121"> Skills </h2>
+            </div>
+            <div class="panel-body">
+                <div class="container">
+                    <form class="form-horizontal" role="form">
+                        <div class="form-group">
+                            <label for="Skill1" class="control-label col-sm-1"> Skill 1  </label>
+                            <div class="col-sm-2">
+                                <input type="text" name="Skills" class="form-control" id="Skill1" placeholder="English" required />
+                            </div>
+                            <label for="Skill2" class="control-label col-sm-1"> Skill 2  </label>
+                            <div class="col-sm-2">
+                                <input type="text" name="Skills" class="form-control" id="Skill2" placeholder="HTML & CSS" required />
+                            </div>
+                            <label for="Skill3" class="control-label col-sm-1"> Skill 3  </label>
+                            <div class="col-sm-2">
+                                <input type="text" name="skills" class="form-control" id="Skill3" placeholder="Javascript" required />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="Skill4" class="control-label col-sm-1"> Skill 4  </label>
+                            <div class="col-sm-2">
+                                <input type="text" name="skills" class="form-control" id="Skill4" placeholder="Coding" required />
+                            </div>
+                            <label for="Country" class="control-label col-sm-1"> Skill 5  </label>
+                            <div class="col-sm-2">
+                                <input type="text" name="Country Name" class="form-control" id="Country" placeholder="Dicision Making " required />
+                            </div>
+                            <label for="Country" class="control-label col-sm-1"> Skill 6  </label>
+                            <div class="col-sm-2">
+                                <input type="text" name="Country Name" class="form-control" id="Country" placeholder="Leadership" required />
+                            </div>
+                        </div>
+                        <div id="checkbox" class="col-sm-offset-2">
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="checkbox" required> Click me</label>
+                            </div>
+                        </div>
+                        <div id="button" class="col-sm-offset-2">
+                            <P>
+                                <button type="button" class="btn btn-success">ADD</button>
+                                <button type="RESET" class="btn btn-warning">RESET</button>
+                            </P>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-primary">
+            <div class="panel-heading" style="background: #222222">
+                <h2 class="panel-title" style="background-color: #232121"> Hobbies </h2>
+            </div>
+            <div class="panel-body">
+                <div class="container">
+                    <form class="form-horizontal" role="form">
+                        <div class="form-group">
+                            <label for="Institution" class="control-label col-sm-1"> Hobbie 1 </label>
+                            <div class="col-sm-2">
+                                <input type="text" name="Institution name" class="form-control" id="Institution" placeholder="cricket" required />
+                            </div>
+                            <label for="Field" class="control-label col-sm-1"> Hobbie 2 </label>
+                            <div class="col-sm-2">
+                                <input type="text" name="Field of Study" class="form-control" id="Field" placeholder="football" required />
+                            </div>
+                            <label for="Institution" class="control-label col-sm-1"> Hobbie 3 </label>
+                            <div class="col-sm-2">
+                                <input type="text" name="Institution name" class="form-control" id="Institution" placeholder="music" required />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="City" class="control-label col-sm-1"> Hobbie 4 </label>
+                            <div class="col-sm-2">
+                                <input type="text" name="city name" class="form-control" id="City" placeholder="movies" required />
+                            </div>
+                            <label for="Country" class="control-label col-sm-1"> Hobbie 5 </label>
+                            <div class="col-sm-2">
+                                <input type="text" name="Country Name" class="form-control" id="Country" placeholder="reading" required />
+                            </div>
+                            <label for="Country" class="control-label col-sm-1"> Hobbie 6 </label>
+                            <div class="col-sm-2">
+                                <input type="text" name="Country Name" class="form-control" id="Country" placeholder="traveling" required />
+                            </div>
+                        </div>
+                        <div id="checkbox" class="col-sm-offset-2">
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="checkbox" required> Click me</label>
+                            </div>
+                        </div>
+                        <div id="button" class="col-sm-offset-2">
+                            <P>
+                                <button type="button" class="btn btn-success" >ADD</button>
+                                <button type="RESET" class="btn btn-warning">RESET</button>
+                            </P>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-primary">
+            <div class="panel-heading" style="background: #222222">
+                <h2 class="panel-title" style="background-color: #232121"> Education </h2>
+            </div>
+            <div class="panel-body">
+                <div class="container">
+                    <form class="form-horizontal" role="form">
+                        <div class="form-group">
+                            <label for="Institution" class="control-label col-sm-2"> Institution name: </label>
+                            <div class="col-sm-3">
+                                <input type="text" name="Institution name" class="form-control" id="Institution" placeholder="DA-IICT" required />
+                            </div>
+                            <label for="Field" class="control-label col-sm-2"> Field Of Study : </label>
+                            <div class="col-sm-3">
+                                <input type="text" name="Field of Study" class="form-control" id="Field" placeholder="Engineering" required />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="City" class="control-label col-sm-2"> City : </label>
+                            <div class="col-sm-3">
+                                <input type="text" name="city name" class="form-control" id="City" placeholder="London" required />
+                            </div>
+                            <label for="Country" class="control-label col-sm-2"> Country : </label>
+                            <div class="col-sm-3">
+                                <input type="text" name="Country Name" class="form-control" id="Country" placeholder="England" required />
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div id="checkbox" class="col-sm-offset-2">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="checkbox" required> Click me</label>
+                    </div>
+                </div>
+                <div id="button" class="col-sm-offset-2">
+                    <P>
+                        <button type="button" class="btn btn-success">ADD</button>
+                        <button type="RESET" class="btn btn-warning">RESET</button>
+                    </P>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-primary">
+            <div class="panel-heading" style="background: #222222">
+                <h2 class="panel-title" style="background-color: #232121"> Education </h2>
+            </div>
+            <div class="panel-body">
+                <div class="container">
+                    <form class="form-horizontal" role="form">
+                        <div class="form-group">
+                            <label for="Institution" class="control-label col-sm-2"> Institution name: </label>
+                            <div class="col-sm-3">
+                                <input type="text" name="Institution name" class="form-control" id="Institution" placeholder="DA-IICT" required />
+                            </div>
+                            <label for="Field" class="control-label col-sm-2"> Field Of Study : </label>
+                            <div class="col-sm-3">
+                                <input type="text" name="Field of Study" class="form-control" id="Field" placeholder="Engineering" required />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="City" class="control-label col-sm-2"> City : </label>
+                            <div class="col-sm-3">
+                                <input type="text" name="city name" class="form-control" id="City" placeholder="London" required />
+                            </div>
+                            <label for="Country" class="control-label col-sm-2"> Country : </label>
+                            <div class="col-sm-3">
+                                <input type="text" name="Country Name" class="form-control" id="Country" placeholder="England" required />
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div id="checkbox" class="col-sm-offset-2">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="checkbox" required> Click me</label>
+                    </div>
+                </div>
+                <div id="button" class="col-sm-offset-2">
+                    <P>
+                        <button type="SUBMIT" class="btn btn-success" required>SUBMIT</button>
+                        <button type="RESET" class="btn btn-warning">RESET</button>
+                    </P>
+                </div>
+            </div>
+        </div>
+    </div>

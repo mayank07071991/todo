@@ -1,0 +1,26 @@
+.jumbotron {
+	font-family: 'Zilla Slab', serif;
+	padding: 30px;
+	background: #d6d4d5;
+}
+
+h1, h2, h3  {
+	font-family: 'Zilla Slab', serif;
+	background: #f8f8f8;
+	padding: 10px;
+}
+.avatar-dropzone {
+    width: 50%;
+    border-radius: 10px;
+    background-color: #fff;
+    cursor: pointer;
+    margin-bottom: 20px;
+    max-height: 300px;
+    max-width: 300px;
+    overflow-y: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+}
+

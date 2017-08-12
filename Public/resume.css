@@ -1,0 +1,103 @@
+body {
+	padding-top: 0px;
+	padding-bottom: 30px;
+	background: #eeeeee;
+	
+}
+}
+
+#contain label {
+	padding-top: 10px;
+	margin-top: 35px; 
+}
+.jumbotron  {
+	font-family: 'Zilla Slab', serif;
+	padding: 30px;
+	background: #d6d4d5;
+}
+.jumbotron span {
+	padding-top: 15px;
+}
+
+h1, h2, h3 {
+    font-family: 'Zilla Slab', serif;
+    background-color: #232121;
+    padding: 10px;
+}
+
+h1 {
+	font-family: 'Zilla Slab', serif;
+	background: #f8f8f8;
+	padding : 10px
+}
+
+fieldset {
+	margin-top: 60px;
+}
+
+.form-group {
+	padding:2px 1px 20px 20px;
+	margin-top: 10px;
+}
+
+.form-group textarea {
+	background: #eeeeee;
+	border-color: grey;
+
+}
+
+.form-horizontal .control-label {
+	padding-top: 17px;
+
+}
+
+
+}
+
+label {
+	color: black;
+	
+}
+
+legend {
+	color: black;
+}
+
+.panel input {
+
+	margin: 10px;
+
+}
+
+.panel {
+	background: white;
+	clear: both;
+	margin: 30px;
+}
+
+#myCarousel {
+	margin-top: 15px;
+
+	margin-bottom: 40px;
+}
+
+#hobbies {
+	padding-right: 5px;
+}
+
+input {
+	border-radius: 8px;
+	background: #eeeeee;
+	border-color: grey;
+
+}
+ .btn {
+	margin-bottom: 45px;
+
+
+}
+
+.checkbox input[type=checkbox] {
+	position: relative;
+
+}

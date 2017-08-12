@@ -1,0 +1,34 @@
+.jumbotron  {
+	font-family: 'Zilla Slab', serif;
+	padding: 30px;
+	background: #d6d4d5;
+}
+
+h1, h2, h3  {
+	font-family: 'Zilla Slab', serif;
+	background: #f8f8f8;
+	padding: 10px
+
+}
+body {
+	padding-top: 70px;
+	padding-bottom: 30px;
+	background: #a05959;
+}
+.col-md-3, .col-md-4{
+	border: 1px solid black;
+	background:#f5f0f2;
+	padding: 14px;
+	margin: 28px; 
+}
+
+} 
+
+.container {
+	margin-top: 10px;
+} 
+
+.row {
+	margin-bottom:  10px;s 
+}
+	}
